@@ -1,0 +1,42 @@
+teams:
+- name: cool-cats
+  maintainers:
+  - hyperledger-bot
+  - ryjones
+  members:
+  - VRamakrishna
+  - ajbozarth
+  - arsulegai
+  - davidwboswell
+  - denyeart
+  - hartm
+  - jflo
+  - mbrandenburger
+  - petermetz
+  - swcurran
+  - tkuhrt
+repositories:
+- name: FILTER
+  teams:
+    cool-cats: maintain
+  visibility: private
+- name: actions-usage
+  visibility: public
+- name: clo
+  visibility: private
+- name: gal
+  visibility: private
+- name: ghe
+  teams:
+    cool-cats: write
+  visibility: private
+- name: ghe-2024
+  visibility: private
+- name: ghe-archive
+  visibility: private
+- name: ghe-old
+  visibility: private
+- name: github-audit-tool-logs
+  visibility: private
+- name: zonefiles
+  visibility: private
