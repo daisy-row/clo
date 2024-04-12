@@ -23,7 +23,7 @@ repositories:
 - name: actions-usage
   visibility: public
 - name: clo
-  visibility: private
+  visibility: public
 - name: gal
   visibility: private
 - name: ghe
