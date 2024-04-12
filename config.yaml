@@ -16,6 +16,10 @@ teams:
   - swcurran
   - tkuhrt
 repositories:
+- name: .github
+  teams:
+    cool-cats: maintain
+  visibility: public
 - name: FILTER
   teams:
     cool-cats: maintain
