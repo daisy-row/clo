@@ -15,6 +15,7 @@ teams:
   - petermetz
   - swcurran
   - tkuhrt
+  - yshyn-iohk
 repositories:
 - name: .github
   teams:
@@ -44,3 +45,7 @@ repositories:
   visibility: private
 - name: zonefiles
   visibility: private
+- name: apptest
+  teams:
+    cool-cats: admin
+  visibility: public
