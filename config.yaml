@@ -16,7 +16,6 @@ teams:
   - petermetz
   - swcurran
   - tkuhrt
-  - yshyn-iohk
 repositories:
 - name: .github
   teams:
