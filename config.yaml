@@ -40,6 +40,7 @@ repositories:
 - name: ghe
   teams:
     cool-cats: write
+    investigation: read
   visibility: private
 - name: jiat75
   teams:
