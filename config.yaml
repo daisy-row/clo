@@ -1,4 +1,10 @@
 teams:
+- name: investigation
+  maintainers:
+  - hyperledger-bot
+  - ryjones
+  members:
+  - cyberscribbleorg
 - name: cool-cats
   maintainers:
   - hyperledger-bot
@@ -34,6 +40,11 @@ repositories:
 - name: ghe
   teams:
     cool-cats: write
+  visibility: private
+- name: jiat75
+  teams:
+    investigation: maintain
+    cool-cats: maintain
   visibility: private
 - name: ghe-2024
   visibility: private
