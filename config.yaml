@@ -34,6 +34,8 @@ repositories:
 - name: actions-usage
   visibility: public
 - name: clo
+  teams:
+    cool-cats: maintain
   visibility: public
 - name: gal
   visibility: private
