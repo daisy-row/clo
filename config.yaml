@@ -1,66 +1,33 @@
 teams:
-- name: investigation
-  maintainers:
-  - hyperledger-bot
-  - ryjones
-  members:
-  - cyberscribbleorg
-- name: cool-cats
-  maintainers:
-  - hyperledger-bot
-  - ryjones
-  members:
-  - Naomi-Wash
-  - VRamakrishna
-  - ajbozarth
-  - arsulegai
-  - davidwboswell
-  - nathanklick
-  - denyeart
-  - hartm
-  - jflo
-  - mbrandenburger
-  - petermetz
-  - swcurran
-  - tkuhrt
+  - name: investigation
+    maintainers:
+      - ryjones
+    members:
+      - cyberscribbleorg
+  - name: cool-cats
+    maintainers:
+      - ryjones
+    members:
+      - arsulegai
+      - davidwboswell
+      - hartm
+      - hendrikebbers
+      - hyperledger-bot
+      - jwagantall
+      - nathanklick
+      - rbarkerSL
+      - tkuhrt
 repositories:
-- name: .github
-  teams:
-    cool-cats: maintain
-  visibility: public
-- name: FILTER
-  teams:
-    cool-cats: maintain
-  visibility: private
-- name: actions-usage
-  visibility: public
-- name: clo
-  teams:
-    cool-cats: maintain
-  visibility: public
-- name: gal
-  visibility: private
-- name: ghe
-  teams:
-    cool-cats: write
-    investigation: read
-  visibility: private
-- name: jiat75
-  teams:
-    investigation: maintain
-    cool-cats: maintain
-  visibility: private
-- name: ghe-2024
-  visibility: private
-- name: ghe-archive
-  visibility: private
-- name: ghe-old
-  visibility: private
-- name: github-audit-tool-logs
-  visibility: private
-- name: zonefiles
-  visibility: private
-- name: apptest
-  teams:
-    cool-cats: admin
-  visibility: public
+  - name: FILTER
+    teams:
+      cool-cats: maintain
+    visibility: private
+  - name: clo
+    teams:
+      cool-cats: maintain
+    visibility: public
+  - name: ghe
+    teams:
+      cool-cats: write
+      investigation: read
+    visibility: private
