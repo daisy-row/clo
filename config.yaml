@@ -15,7 +15,6 @@ teams:
       - hyperledger-bot
       - jwagantall
       - nathanklick
-      - rbarkerSL
       - tkuhrt
 repositories:
   - name: FILTER
