@@ -1,9 +1,4 @@
 teams:
-  - name: investigation
-    maintainers:
-      - ryjones
-    members:
-      - cyberscribbleorg
   - name: cool-cats
     maintainers:
       - ryjones
