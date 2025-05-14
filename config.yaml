@@ -17,6 +17,7 @@ teams:
       - jordanconway
       - jwagantall
       - nathanklick
+      - rbarker-dev
       - tkuhrt
 repositories:
   - name: FILTER
@@ -30,5 +31,8 @@ repositories:
   - name: ghe
     teams:
       cool-cats: write
-      investigation: read
+    visibility: private
+  - name: hal
+    teams:
+      cool-cats: write
     visibility: private
