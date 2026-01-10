@@ -27,7 +27,7 @@ repositories:
     teams:
       cool-cats: write
     visibility: private
-  - name: hal
+  - name: pgsql-ghel
     teams:
       cool-cats: write
     visibility: private
