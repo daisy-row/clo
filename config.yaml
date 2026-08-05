@@ -16,19 +16,7 @@ teams:
       - rbarker-dev
       - tkuhrt
 repositories:
-  - name: FILTER
-    teams:
-      cool-cats: maintain
-    visibility: private
   - name: clo
     teams:
       cool-cats: maintain
     visibility: public
-  - name: ghe
-    teams:
-      cool-cats: write
-    visibility: private
-  - name: pgsql-ghel
-    teams:
-      cool-cats: write
-    visibility: private
